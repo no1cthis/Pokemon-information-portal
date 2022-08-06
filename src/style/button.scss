@@ -1,0 +1,32 @@
+@import './variables';
+
+.button {
+    min-width: 101px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.3s transform;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+   
+    &__long {
+        display: block;
+        width: 170px;
+        margin: 45px auto 0 auto;
+    }
+    .inner {
+        position: relative;
+        background-color: $main-color;
+        line-height: 18px;
+        padding: 10px 18px;
+        border-radius: 6px;
+        transition: 0.1s;
+    }
+
+    :hover{
+        transform: translateY(-5px);
+        
+    }
+}
